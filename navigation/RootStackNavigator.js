@@ -8,7 +8,7 @@ import { colors } from "../theme/colors";
 
 const Stack = createNativeStackNavigator();
 
-export default RootStackNavigator = () => {
+const RootStackNavigator = () => {
   return (
     <NavigationContainer>
       <StatusBar
@@ -37,3 +37,5 @@ export default RootStackNavigator = () => {
     </NavigationContainer>
   );
 };
+
+export default RootStackNavigator;

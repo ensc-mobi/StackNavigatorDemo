@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Text, Button } from "react-native";
-import { styles } from "../theme/styles";
+import styles from "../theme/styles";
 
-export default HomeScreen = ({ navigation }) => {
+const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>This is the home screen</Text>
@@ -19,3 +19,5 @@ export default HomeScreen = ({ navigation }) => {
     </View>
   );
 };
+
+export default HomeScreen;

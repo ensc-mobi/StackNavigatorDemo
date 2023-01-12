@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Text, Button } from "react-native";
-import { styles } from "../theme/styles";
+import styles from "../theme/styles";
 
-export default DetailsScreen = ({ navigation, route }) => {
+const DetailsScreen = ({ navigation, route }) => {
   // Get the params
   const { itemId, otherParam } = route.params;
   return (
@@ -25,3 +25,5 @@ export default DetailsScreen = ({ navigation, route }) => {
     </View>
   );
 };
+
+export default DetailsScreen;
